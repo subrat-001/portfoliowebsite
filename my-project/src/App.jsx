@@ -43,7 +43,8 @@ function App() {
     };
   }, [activeSection]);
 
-  return (
+  return (<>
+  
     <div className='flex flex-col w-screen'>
 
 
@@ -59,6 +60,7 @@ function App() {
         <Contactme />
       </Element>
     </div>
+  </>
   );
 }
 
